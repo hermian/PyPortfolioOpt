@@ -94,7 +94,6 @@ A Quick Example
 
 이미 기대 수익률 ``mu`` 을 가진다면 자산 집합에 대한 위험 모델 ``S`` 이 있는 경우 최적의 포트폴리오를 생성하는 것은 다음과 같이 쉽습니다.
 
-.. code-block:: python
     from pypfopt.efficient_frontier import EfficientFrontier
 
     ef = EfficientFrontier(mu, S)
@@ -104,7 +103,6 @@ A Quick Example
 
 그러나 과거 데이터에서 기대 수익률 및 공분산 행렬을 계산하기 위해 PyPortfolioOpt의 기본 제공 방법을 사용하려는 경우 다음과 같습니다.
 
-.. code-block:: python
     import pandas as pd
     from pypfopt.efficient_frontier import EfficientFrontier
     from pypfopt import risk_models
