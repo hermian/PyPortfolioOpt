@@ -32,6 +32,8 @@ classical efficient frontier techniques and Black-Litterman allocation, as well 
 recent developments in the field like shrinkage and Hierarchical Risk Parity, along with
 some novel experimental features like exponentially-weighted covariance matrices.
 
+PyPortfolioOpt는 고전적인 효율적인 프론티어 기술과 Black-Litterman 할당을 포함한 포트폴리오 최적화 방법을 구현하는 라이브러리 뿐만 아니라 수축:sup:`shrinkage` 및 계층 위험 패리티:sup:`Hierarchical Risk Parity` 와 같은 분야의 최근 개발과 기하급수적으로 가중된 코바시언 매트릭스와 같은 새로운 실험 기능입니다.
+
 It is **extensive** yet easily
 **extensible**, and can be useful for both the casual investor and the serious
 practitioner. Whether you are a fundamentals-oriented investor who has identified a
