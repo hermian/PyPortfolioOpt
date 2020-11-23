@@ -176,12 +176,12 @@ Advantages over existing implementations
 Project principles and design decisions
 =======================================
 
-- It should be easy to swap out individual components of the optimisation process with the user's proprietary improvements.
-- Usability is everything: it is better to be self-explanatory than consistent.
-- There is no point in portfolio optimisation unless it can be practically applied to real asset prices.
-- Everything that has been implemented should be tested.
-- Inline documentation is good: dedicated (separate) documentation is better. The two are not mutually exclusive.
-- Formatting should never get in the way of good code: because of this, I have deferred **all** formatting decisions to `Black <https://github.com/ambv/black>`_.
+.. - It should be easy to swap out individual components of the optimisation process with the user's proprietary improvements.
+.. - Usability is everything: it is better to be self-explanatory than consistent.
+.. - There is no point in portfolio optimisation unless it can be practically applied to real asset prices.
+.. - Everything that has been implemented should be tested.
+.. - Inline documentation is good: dedicated (separate) documentation is better. The two are not mutually exclusive.
+.. - Formatting should never get in the way of good code: because of this, I have deferred **all** formatting decisions to `Black <https://github.com/ambv/black>`_.
 
 - 최적화 프로세스의 개별 구성 요소를 사용자의 독점 개선으로 쉽게 교체할 수 있어야 합니다.
 - 사용적합성이 모든 것입니다. 일관성보다 자명하는 것이 좋습니다.
